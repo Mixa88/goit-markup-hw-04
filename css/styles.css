@@ -219,7 +219,11 @@ ul {
   background: #2e2f42;
   padding: 188px 0;
 
-  background-image: url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 
   max-width: 1440px;
 
@@ -249,6 +253,7 @@ ul {
 
 .li-sec-one {
   width: calc((100% - 72px) / 4);
+  
 }
 
 .section-one-title {
@@ -271,6 +276,23 @@ ul {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+svg {
+  width: 64px;
+  height: 64px;
+}
+
+
+.feature1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+
 }
 
 /* Section#2 */
