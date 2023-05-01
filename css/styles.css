@@ -398,11 +398,11 @@ ul {
   height: 40px;
 
   margin-top: 8px;
-  
+
 
 }
 
-.social-link {
+.inst-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -410,18 +410,19 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
+
+
 
 }
 
-.social-link:hover, .social-link:focus {
+.inst-link:hover,
+.inst-link:focus {
   background-color: #404bbf;
 }
 
 .icon-team {
   fill: #f4f4fd;
-  
+
 
 }
 
